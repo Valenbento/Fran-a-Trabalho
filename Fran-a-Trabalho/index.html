@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="page">
+        <header>
+        <h1>Cadastro</h1>
+    </header>
+    
+    
+       
+           <main>
+            <form >
+                <fieldset>
+                    <legend>Informacoes pessoais</legend>
+    
+                    <div>
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" placeholder="Digite seu nome..." id="nome" required minlength="6" maxlength="20">
+                    </div>
+    
+                    <div>
+                        <label for="CPF">CPF:</label>
+                        <input type="number" placeholder="Digite seu CPF..." id="CPF" required min="10000000000">
+                    </div>
+    
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" placeholder="Digite seu E-mail..." id="email" required>
+                    </div>
+    
+                    <div>
+                        <label for="senha">Senha:</label>
+                        <input type="password" placeholder="Digite uma senha..." id="senha">
+                    </div>
+    
+                   
+    
+                    <div>
+                        <label for="data">Data de Nascimento:</label>
+                        <input type="date" id="data" max="2007-10-22">
+                    </div>
+                </fieldset>
+
+            </form>
+            <nav class="menu">
+                <a href="login.html"><button>Enviar</button></a>
+            </nav>
+           </main>
+
+</body>
+</html>
