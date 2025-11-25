@@ -112,7 +112,7 @@ h1,
     background: #c62828;
 }
 
-header {
+.azul {
     background: #002654;
     height: 18rem;
     display: flex;
@@ -306,8 +306,63 @@ footer{
     z-index: 9999;
 }
 
+.marrom{
+    background: #5a3e2b;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    font-family: "Playfair Display",sans-serif;
+}
 
+.culinaria h3, h2{
+    color: #5a3e2b;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+}
 
+.culinaria p {
+    font-family: "Open Sans",sans-serif;
+}
+
+.culinaria{
+    background: #f2efeb;
+}
+
+.ajeitar-marrom{
+    padding-top: 18rem;
+}
+.culinaria h2{
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 6rem;
+    padding-bottom: 3rem;
+}
+
+.sabor p{
+    width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+.bloco1 img, .bloco2 img, .bloco3 img, .bloco4 img, .bloco5 img{
+    max-width: 40rem;
+}
+
+.bloco1 , .bloco2 , .bloco3{
+    background: #fff;
+    max-width: 30rem;
+    padding: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
