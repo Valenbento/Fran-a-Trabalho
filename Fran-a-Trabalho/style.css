@@ -1,53 +1,61 @@
-.headertodos{
-    background: #002654;
+header{
+   background: #002654;
     height: 12rem;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: fixed;
     width: 100%;
-    z-index: 10;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
+.bodyhome {
+    margin: 0;
+    padding: 0;
+    background: #e6ecf3;
+    font-family: "Playfair Display", serif;
+     padding-top: 12rem;
+     font-size: 1.6rem;
+     
+}
 .header-container{
     max-width: 1220px;
+    width: 100%;
     margin-inline: auto;
-    width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
 }
 
-    .header-container .tituloheader {
+
+
+    .header-container h1 {
     color: #fff;
     font-family: "Playfair Display", sans-serif;
     font-size: 2.5rem;
 }
 
-.header-container .ulhome {
+.header-container ul {
     list-style: none;
     display: flex;
     gap: 6rem;
     font-family: "Playfair Display", sans-serif;
 }
 
-.header-container .ancorasheader {
+.header-container a {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
     font-size: 2.5rem;
 }
 
-.header-container .linha :hover {
+.header-container li:hover {
     transform: scale(1.1);
     transition: 0.4s;
 }
-
 
 
 
@@ -59,12 +67,7 @@
     margin-top: 7rem;
 }
 
-.logincadastro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 7rem;  
-}
+.logincadastro
 
 
 fieldset {
@@ -102,7 +105,7 @@ legend {
 }
 
 
-fieldset .email .senha {
+fieldset div {
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -162,7 +165,7 @@ input[type="date"] {
     background: #c62828;
 }
 
-.titulocadastro {
+h1 {
     text-align: center;
     font-size: 45px;
     color: #163a63;
@@ -172,15 +175,6 @@ input[type="date"] {
     margin-bottom: 20px;
 }
 
-.titulologin {
-    text-align: center;
-    font-size: 45px;
-    color: #163a63;
-    font-weight: 700;
-    margin-left: 90px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
 
 
 
@@ -299,14 +293,14 @@ footer{
     font-family: "Playfair Display", sans-serif;
 }
 
-.header-container  {
+.header-container a {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
     font-size: 2.5rem;
 }
 
-.header-container :hover {
+.header-container li:hover {
     transform: scale(1.1);
     transition: 0.4s;
 }
