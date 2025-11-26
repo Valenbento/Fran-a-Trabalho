@@ -5,13 +5,12 @@
 }
 
 :root {
-    font-size: 62.5%; /* 1rem = 10px */
+    font-size: 62.5%;
 }
 
 body {
     font-size: 1.6rem;
     background: #e6ecf3;
-   
 }
 
 .header-container li:hover {
@@ -19,12 +18,8 @@ body {
     transition: 0.4s;
 }
 
-/* ------------------------- */
-/* ÁREA PRINCIPAL            */
-/* ------------------------- */
-
 .logincadastro,
- .loginmain{
+.loginmain {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +40,6 @@ body {
 }
 
 .legenda {
-    
     text-align: center;
     font-size: 1.7rem;
     color: #75695a;
@@ -59,13 +53,11 @@ body {
     gap: 1rem;
 }
 
-
 label {
     color: #1d1d1d;
     font-size: 1.5rem;
     font-weight: bold;
 }
-
 
 input {
     width: 26rem;
@@ -78,8 +70,8 @@ input {
     text-align: center;
 }
 
-h1, 
-.titulocadastro, 
+h1,
+.titulocadastro,
 .titulologin {
     text-align: center;
     font-size: 4.5rem;
@@ -121,11 +113,11 @@ h1,
     position: fixed;
     width: 100%;
     z-index: 10;
-    font-family: "Playfair Display",sans-serif;
+    font-family: "Playfair Display", sans-serif;
 }
 
-.ajeitar{
-     padding-top: 48rem;
+.ajeitar {
+    padding-top: 20rem;
 }
 
 .header-container {
@@ -163,19 +155,19 @@ h1,
     transition: 0.4s;
 }
 
-.torre{
+.torre {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 44rem;
 }
 
-.torre img{
-     border-radius: 0.6rem;
-     width: 110rem;
+.torre img {
+    border-radius: 0.6rem;
+    width: 110rem;
 }
 
-.entrar{
+.entrar {
     position: relative;
     right: 98rem;
     font-family: "Playfair Display", sans-serif;
@@ -183,25 +175,26 @@ h1,
     font-size: 3rem;
 }
 
-.historia h2{
+.historia h2 {
     font-family: "Playfair Display", sans-serif;
     color: #002654;
     padding: 11rem 12rem;
     font-size: 5rem;
 }
 
-.historia p{
+.historia p {
     font-family: "Open Sans", sans-serif;
     padding-left: 14rem;
     max-width: 120rem;
 }
 
-.historia{
+.historia {
     background: #f5fbf9;
     margin-top: 5rem;
+    border-left: #e52b3d solid;
 }
 
-.historia button{
+.historia button {
     background: #e52b3d;
     color: white;
     border: none;
@@ -221,73 +214,68 @@ h1,
     background: #c62828;
 }
 
-.historia{
-    border-left: #e52b3d solid;
-}
-
-.bandeira h2{
+.bandeira h2 {
     font-family: "Playfair Display", sans-serif;
     color: #002654;
     padding: 3rem 10rem;
     font-size: 5rem;
 }
 
-.bandeira p, .bandeira ul, .bandeira li {
+.bandeira p,
+.bandeira ul,
+.bandeira li {
     font-family: "Open Sans", sans-serif;
-       padding: 3rem 4.5rem;
-   
+    padding: 3rem 4.5rem;
 }
 
-.bandeira p{
+.bandeira p {
     max-width: 70rem;
 }
 
-.esquerda img{
+.esquerda img {
     border-radius: 0.6rem;
-     width: 100%; 
-    max-width: 30rem; /* tamanho máximo */
+    width: 100%;
+    max-width: 30rem;
     height: auto;
     position: relative;
-    left: 16rem;    
+    left: 16rem;
 }
 
 .bandeira {
     padding: 3rem 8rem;
-      display: flex;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     background: #f2efeb;
 }
 
-.direita img{
+.direita img {
     border-radius: 0.6rem;
-     width: 100%; 
-    max-width: 40rem; 
+    width: 100%;
+    max-width: 40rem;
     height: auto;
     position: relative;
     left: 16rem;
 }
 
-.direita h2{
+.direita h2 {
     position: relative;
     bottom: 11.5rem;
 }
 
-.direita p{
+.direita p {
     position: relative;
     bottom: 5rem;
 }
 
-footer{
+footer {
     background-color: #002654;
     color: #fff;
     padding: 1rem 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
-    left: 0;
     width: 100%;
     height: 6rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -295,18 +283,17 @@ footer{
     font-weight: bold;
 }
 
-.arrow{
+.arrow {
     position: fixed;
     right: 4rem;
     bottom: 0.6rem;
     background-color: #e03535;
-    width: fit-content;
     padding: 1rem;
     border-radius: 50%;
     z-index: 9999;
 }
 
-.marrom{
+.marrom {
     background: #5a3e2b;
     height: 18rem;
     display: flex;
@@ -315,34 +302,36 @@ footer{
     position: fixed;
     width: 100%;
     z-index: 10;
-    font-family: "Playfair Display",sans-serif;
+    font-family: "Playfair Display", sans-serif;
 }
 
-.culinaria h3, .culinaria h2{
+.culinaria h3,
+.culinaria h2 {
     color: #5a3e2b;
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
 }
 
 .culinaria p {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-.culinaria{
+.culinaria {
     background: #f2efeb;
 }
 
-.ajeitar-marrom{
+.ajeitar-marrom {
     padding-top: 18rem;
 }
-.culinaria h2{
+
+.culinaria h2 {
     padding-top: 4rem;
     text-align: center;
     font-size: 6rem;
     padding-bottom: 3rem;
 }
 
-.sabor p{
+.sabor p {
     width: 50rem;
     margin: 0 auto;
     text-align: center;
@@ -360,45 +349,43 @@ footer{
     gap: 4rem;
 }
 
+
 .card {
     background: #fff;
     width: fit-content;
     padding: 3rem;
     border-radius: 2rem;
-
-    img {
-        max-width: 34rem;
-        margin-bottom: 3rem;
-        border-radius: 1rem;
-        height: 20rem;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    h3 {
-        margin-bottom: 1rem;
-    }
-
-    p {
-        max-width: 34rem;
-    }
 }
 
-.ajeitar-marrom {
-    section {
-        padding-bottom: 10rem;
-    }
+.card img {
+    max-width: 34rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
 }
 
-.footer-marrom{
+.card h3 {
+    margin-bottom: 1rem;
+}
+
+.card p {
+    max-width: 34rem;
+}
+
+
+.ajeitar-marrom section {
+    padding-bottom: 10rem;
+}
+
+.footer-marrom {
     background-color: #5a3e2b;
     color: #fff;
     padding: 1rem 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
-    left: 0;
     width: 100%;
     height: 6rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -406,6 +393,172 @@ footer{
     font-weight: bold;
 }
 
+.intro {
+    padding-top: 20rem;
+    background-color: #f2efeb;
+    padding-bottom: 4.5rem;
+}
 
+.intro h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    color: #002654;
+    margin-bottom: 2rem;
+}
 
+.intro p {
+    text-align: center;
+    color: #000000;
+    line-height: 2.6rem;
+    margin: 0 auto;
+    max-width: 70rem;
+    font-family: "Open Sans", sans-serif;
+}
 
+.cinza h2 {
+    font-family: "Playfair Display", sans-serif;
+    color: #002654;
+}
+
+.cinza p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.cinza {
+    background: #d9d9d9;
+    padding: 4rem 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.conteudo {
+    max-width: 46rem;
+    margin-left: 80rem;
+}
+
+.cinza img {
+    width: 350px;
+    max-width: 40%;
+    border-radius: 0.6rem;
+    margin-right: 80rem;
+}
+
+.moda {
+    background: #f2efeb;
+    padding: 4rem 12rem;
+}
+
+.moda h2 {
+    text-align: right;
+    font-family: "Playfair Display", sans-serif;
+    color: #002654;
+    position: relative;
+    top: 5rem;
+    right: 80rem;
+}
+
+.conteudo-moda {
+    display: flex;
+    align-items: center;
+   margin-left: 83rem;
+    gap: 12rem;
+}
+
+.conteudo-moda img {
+    width: 30rem;
+    border-radius: 0.6rem;
+}
+
+.conteudo-moda p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 2.8rem;
+    max-width: 55rem;
+    text-align: right;
+}
+
+.arte {
+    background: #d9d9d9;
+    padding: 4rem 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-arte {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.arte h2 {
+    font-family: "Playfair Display", sans-serif;
+    color: #002654;
+    margin-bottom: 1.5rem;
+    margin-left: 0.6rem;
+
+}
+
+.arte p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 2.6rem;
+    max-width: 46rem;
+}
+
+.conteudo-arte img {
+    width: 350px;
+    max-width: 50%;
+    border-radius: 0.6rem;
+    margin-right: 10rem;
+}
+
+.cinza p,
+.arte p,
+.moda p {
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    line-height: 2.6rem;
+    font-size: 1.8rem;
+}
+
+.valores {
+    background: #f2efeb;
+    padding: 4rem 12rem;
+}
+
+.valores h2 {
+    text-align: right;
+    font-family: "Playfair Display", sans-serif;
+    color: #002654;
+    margin-bottom: 3rem;
+    position: relative;
+    top: 2rem;
+    right: 5.5rem;
+    margin-right: 80rem;
+}
+
+.conteudo-valores {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12rem;
+    margin-right: 80rem;
+}
+
+.conteudo-valores img {
+    width: 38rem;
+    border-radius: 0.6rem;
+}
+
+.conteudo-valores p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    max-width: 55rem;
+    text-align: right;
+}
